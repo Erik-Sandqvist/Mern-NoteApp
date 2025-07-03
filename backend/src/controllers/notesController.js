@@ -1,6 +1,5 @@
-export async function getAllNotes  (req, res)  {   
-    res.send("you  got notes");
-      res.status(200).send("Here are your notes");
+export async function getAllNotes(req, res) {
+    res.status(200).send("Here are your notes");
 }
 
 export async function getNoteById(req, res) {
